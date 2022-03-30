@@ -1,22 +1,29 @@
-from re import A
+puede_volar= input("Tu super heroe puede volar")
+es_humano= input("Tu super heroe es humano")
+usa_mascara=input("Tu super heroe usa mascara")
 
-
-puede_volar=True
-es_humano=True
-tiene_mascara=True
-
-Ironman=1
-Capitan_Marvel=2
-Ronan_Accuser=3
-Vision=4
-
-superheroe=input("¿Su superheroe puede volar? ")
-if puede_volar=="si":
-    input("¿Su superheroe es humano? ")
-elif es_humano=="si":
-    input("¿Su Superheroe tiene mascara? ")   
-elif tiene_mascara=="si":
-        print("Su superheroe es", 1)
+if puede_volar =="si": 
+    if es_humano =="si":      
+        if usa_mascara=="si":
+            print("IROMAN") 
+        else:
+            print("CAPITAN MARVEL")       
+    else:
+        if usa_mascara =="si":
+            print("RONAN ACUSADOR")
+        else:
+            print("VISION")
+else: 
+    if es_humano =="si":
+        if usa_mascara =="si":
+            print("SPIDERMAN")
+        else:
+            print("HULK")
+    else:
+        if usa_mascara =="si":
+            print("BLACK BOLT")
+        else:
+            print("THANOS")
     
 
     
