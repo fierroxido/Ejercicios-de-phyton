@@ -24,6 +24,7 @@ else:
             print("BLACK BOLT")
         else:
             print("THANOS")
+            
     
 
     
