@@ -31,11 +31,13 @@ for val in prom:
 total=suma/b
 print('El promedio de producción del año 2021 es:', total)
 
-for datos in produccion:
-    if produccion()>total:
-        print('Los valores mayores al promedio de la producción del año 2021 es', produccion.values()>total)
-else:
-    print('Los valores menores al promedio de la produccion del año 2021 es', produccion.values()<suma/b)
+for datos in produccion.keys():
+    if (produccion[datos]>=total):
+        
+        print('El valor menor al promedio de la producción del año 2021 es',datos)
+    else:
+        print('El valor menor al promedio de la produccion del año 2021 es', datos)
+
 
 
 
