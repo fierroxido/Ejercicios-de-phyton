@@ -43,4 +43,4 @@ print(f"su salario neto es: {c}")
 if c < 2000000:
      DL=(diaslaborados * 117112)/30
      fin=DL+c
-     print(f"Su sueldo neto con  en el auxilio de trasporte es:{fin}")
+     print(f"Su sueldo neto con  en el auxilio de trasporte es:{fin}") 
