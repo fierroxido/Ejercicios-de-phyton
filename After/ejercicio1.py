@@ -1,6 +1,6 @@
 from cmath import sqrt
 
-
+#Ejercicio en autoría de Daniel Fierro
 smlv=int(1000000)#Salario minimo legal vigente
 print(f"Recuerde que el salario minimo legal vigente es de {smlv}")
 smlvd=int(input("Digite el salario que usted recibe que oscile entre 1 smlv y 2 smlv: "))
@@ -14,7 +14,7 @@ sb=((smlvd+adt)*dias)/30 #Es el salario BASE que tendría el trabajador contando
 ventas=int(input("Digite el número de ventas que ha hecho durante el presente mes trabajando"))
 comision=ventas*0.2
 truet=(sd or sb)+comision
-descuentos=
+#descuentos=Falta definir el concepto del porcentaje para los descuentos
 truesalario=print(descuentos)
 #float(truet*0.(input("Digite el costo total de los prestamos:")))
 
